@@ -1083,6 +1083,8 @@ MonoBehaviour:
   enemyPrefab:
   - {fileID: 9090814308694255570, guid: f701f3c92c6635b4ba5e066f3d5f8e9c, type: 3}
   enemyBossPrefab: {fileID: 9090814308694255570, guid: 7e6e6067efcdc3242afb8231697b7b58, type: 3}
+  enemyBossCount: 0
+  maxEnemyBossCount: 1
   enemyParent: {fileID: 5838322874363423516, guid: 96a3f64f6d8570249b1d510a87ea85a9, type: 3}
   enemyCount: 0
   waveNumber: 0
@@ -1121,6 +1123,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4414047597758657688, guid: d9850eb55c7603c4e88d83edb403cec1, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 9c97c9eb7b0d6204194da76c780beec7, type: 2}
     - target: {fileID: 5838322874363423516, guid: d9850eb55c7603c4e88d83edb403cec1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
